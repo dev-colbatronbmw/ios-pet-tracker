@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D1EC7AC23E8CE0B00357E10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1EC7AB23E8CE0B00357E10 /* AppDelegate.swift */; };
+		3D1EC7AE23E8CE0B00357E10 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1EC7AD23E8CE0B00357E10 /* SceneDelegate.swift */; };
+		3D1EC7B023E8CE0B00357E10 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1EC7AF23E8CE0B00357E10 /* ViewController.swift */; };
+		3D1EC7B323E8CE0B00357E10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D1EC7B123E8CE0B00357E10 /* Main.storyboard */; };
+		3D1EC7B823E8CE0D00357E10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D1EC7B723E8CE0D00357E10 /* Assets.xcassets */; };
+		3D65FB8223F716FA00AF01D9 /* AddFriendTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D65FB8123F716FA00AF01D9 /* AddFriendTableViewController.swift */; };
+		3D65FB8423F71FD900AF01D9 /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D65FB8323F71FD900AF01D9 /* Friend.swift */; };
+		3D7B3DF123FDC7A200043F77 /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7B3DF023FDC7A200043F77 /* Pet.swift */; };
+		3D7B3DF323FDCD3700043F77 /* AddPetTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7B3DF223FDCD3700043F77 /* AddPetTableViewController.swift */; };
+		3D7B3DF823FDFCFC00043F77 /* pet_tracker.xcdatamodeld in Resources */ = {isa = PBXBuildFile; fileRef = 3D1EC7B423E8CE0B00357E10 /* pet_tracker.xcdatamodeld */; };
+		3D8FBB7224203AE300419C28 /* Friend+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8FBB6E24203AE300419C28 /* Friend+CoreDataClass.swift */; };
+		3D8FBB7324203AE300419C28 /* Friend+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8FBB6F24203AE300419C28 /* Friend+CoreDataProperties.swift */; };
+		3D8FBB7424203AE300419C28 /* Pet+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8FBB7024203AE300419C28 /* Pet+CoreDataClass.swift */; };
+		3D8FBB7524203AE300419C28 /* Pet+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8FBB7124203AE300419C28 /* Pet+CoreDataProperties.swift */; };
+		3DAD43D123F7B77F001E2083 /* FriendCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAD43D023F7B77F001E2083 /* FriendCollectionViewCell.swift */; };
+		3DAD43D323F7C2A4001E2083 /* PetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAD43D223F7C2A4001E2083 /* PetsViewController.swift */; };
+		3DAD43D723F7C8B5001E2083 /* PetsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAD43D623F7C8B5001E2083 /* PetsCollectionViewCell.swift */; };
+		3DC1ADCA23E90B47006F79E2 /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC1ADC923E90B47006F79E2 /* FriendsViewController.swift */; };
+		3DC1ADCC23E919E4006F79E2 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DC1ADCB23E919E4006F79E2 /* Launch Screen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3D1EC7A823E8CE0B00357E10 /* pet-tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pet-tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D1EC7AB23E8CE0B00357E10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3D1EC7AD23E8CE0B00357E10 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3D1EC7AF23E8CE0B00357E10 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3D1EC7B223E8CE0B00357E10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D1EC7B523E8CE0B00357E10 /* pet_tracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = pet_tracker.xcdatamodel; sourceTree = "<group>"; };
+		3D1EC7B723E8CE0D00357E10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D1EC7BC23E8CE0D00357E10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D65FB8123F716FA00AF01D9 /* AddFriendTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFriendTableViewController.swift; sourceTree = "<group>"; };
+		3D65FB8323F71FD900AF01D9 /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
+		3D7B3DF023FDC7A200043F77 /* Pet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pet.swift; sourceTree = "<group>"; };
+		3D7B3DF223FDCD3700043F77 /* AddPetTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPetTableViewController.swift; sourceTree = "<group>"; };
+		3D8FBB6E24203AE300419C28 /* Friend+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Friend+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		3D8FBB6F24203AE300419C28 /* Friend+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Friend+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		3D8FBB7024203AE300419C28 /* Pet+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Pet+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		3D8FBB7124203AE300419C28 /* Pet+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Pet+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		3DAD43D023F7B77F001E2083 /* FriendCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendCollectionViewCell.swift; sourceTree = "<group>"; };
+		3DAD43D223F7C2A4001E2083 /* PetsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetsViewController.swift; sourceTree = "<group>"; };
+		3DAD43D623F7C8B5001E2083 /* PetsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetsCollectionViewCell.swift; sourceTree = "<group>"; };
+		3DC1ADC923E90B47006F79E2 /* FriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
+		3DC1ADCB23E919E4006F79E2 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D1EC7A523E8CE0A00357E10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D1EC79F23E8CE0A00357E10 = {
+			isa = PBXGroup;
+			children = (
+				3D1EC7AA23E8CE0B00357E10 /* pet-tracker */,
+				3D1EC7A923E8CE0B00357E10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D1EC7A923E8CE0B00357E10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D1EC7A823E8CE0B00357E10 /* pet-tracker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D1EC7AA23E8CE0B00357E10 /* pet-tracker */ = {
+			isa = PBXGroup;
+			children = (
+				3DC1ADC823E90ACE006F79E2 /* Controller */,
+				3DC1ADC723E90AC7006F79E2 /* View */,
+				3DC1ADC623E90AB8006F79E2 /* Model */,
+				3D1EC7AB23E8CE0B00357E10 /* AppDelegate.swift */,
+				3D1EC7AD23E8CE0B00357E10 /* SceneDelegate.swift */,
+				3D1EC7B723E8CE0D00357E10 /* Assets.xcassets */,
+				3DC1ADCB23E919E4006F79E2 /* Launch Screen.storyboard */,
+				3D1EC7BC23E8CE0D00357E10 /* Info.plist */,
+			);
+			path = "pet-tracker";
+			sourceTree = "<group>";
+		};
+		3DC1ADC623E90AB8006F79E2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3D8FBB6E24203AE300419C28 /* Friend+CoreDataClass.swift */,
+				3D8FBB6F24203AE300419C28 /* Friend+CoreDataProperties.swift */,
+				3D8FBB7024203AE300419C28 /* Pet+CoreDataClass.swift */,
+				3D8FBB7124203AE300419C28 /* Pet+CoreDataProperties.swift */,
+				3D65FB8323F71FD900AF01D9 /* Friend.swift */,
+				3DAD43D023F7B77F001E2083 /* FriendCollectionViewCell.swift */,
+				3DAD43D623F7C8B5001E2083 /* PetsCollectionViewCell.swift */,
+				3D1EC7B423E8CE0B00357E10 /* pet_tracker.xcdatamodeld */,
+				3D7B3DF023FDC7A200043F77 /* Pet.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3DC1ADC723E90AC7006F79E2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3D1EC7B123E8CE0B00357E10 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3DC1ADC823E90ACE006F79E2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3DC1ADC923E90B47006F79E2 /* FriendsViewController.swift */,
+				3D65FB8123F716FA00AF01D9 /* AddFriendTableViewController.swift */,
+				3D1EC7AF23E8CE0B00357E10 /* ViewController.swift */,
+				3DAD43D223F7C2A4001E2083 /* PetsViewController.swift */,
+				3D7B3DF223FDCD3700043F77 /* AddPetTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D1EC7A723E8CE0A00357E10 /* pet-tracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D1EC7BF23E8CE0D00357E10 /* Build configuration list for PBXNativeTarget "pet-tracker" */;
+			buildPhases = (
+				3D1EC7A423E8CE0A00357E10 /* Sources */,
+				3D1EC7A523E8CE0A00357E10 /* Frameworks */,
+				3D1EC7A623E8CE0A00357E10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "pet-tracker";
+			productName = "pet-tracker";
+			productReference = 3D1EC7A823E8CE0B00357E10 /* pet-tracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D1EC7A023E8CE0A00357E10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Colby Holmstead";
+				TargetAttributes = {
+					3D1EC7A723E8CE0A00357E10 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 3D1EC7A323E8CE0A00357E10 /* Build configuration list for PBXProject "pet-tracker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D1EC79F23E8CE0A00357E10;
+			productRefGroup = 3D1EC7A923E8CE0B00357E10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D1EC7A723E8CE0A00357E10 /* pet-tracker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D1EC7A623E8CE0A00357E10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D7B3DF823FDFCFC00043F77 /* pet_tracker.xcdatamodeld in Resources */,
+				3D1EC7B823E8CE0D00357E10 /* Assets.xcassets in Resources */,
+				3DC1ADCC23E919E4006F79E2 /* Launch Screen.storyboard in Resources */,
+				3D1EC7B323E8CE0B00357E10 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D1EC7A423E8CE0A00357E10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DAD43D123F7B77F001E2083 /* FriendCollectionViewCell.swift in Sources */,
+				3D8FBB7224203AE300419C28 /* Friend+CoreDataClass.swift in Sources */,
+				3D8FBB7524203AE300419C28 /* Pet+CoreDataProperties.swift in Sources */,
+				3DAD43D723F7C8B5001E2083 /* PetsCollectionViewCell.swift in Sources */,
+				3D65FB8423F71FD900AF01D9 /* Friend.swift in Sources */,
+				3DC1ADCA23E90B47006F79E2 /* FriendsViewController.swift in Sources */,
+				3D8FBB7324203AE300419C28 /* Friend+CoreDataProperties.swift in Sources */,
+				3DAD43D323F7C2A4001E2083 /* PetsViewController.swift in Sources */,
+				3D1EC7B023E8CE0B00357E10 /* ViewController.swift in Sources */,
+				3D7B3DF323FDCD3700043F77 /* AddPetTableViewController.swift in Sources */,
+				3D65FB8223F716FA00AF01D9 /* AddFriendTableViewController.swift in Sources */,
+				3D1EC7AC23E8CE0B00357E10 /* AppDelegate.swift in Sources */,
+				3D1EC7AE23E8CE0B00357E10 /* SceneDelegate.swift in Sources */,
+				3D7B3DF123FDC7A200043F77 /* Pet.swift in Sources */,
+				3D8FBB7424203AE300419C28 /* Pet+CoreDataClass.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3D1EC7B123E8CE0B00357E10 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D1EC7B223E8CE0B00357E10 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D1EC7BD23E8CE0D00357E10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3D1EC7BE23E8CE0D00357E10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D1EC7C023E8CE0D00357E10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7MW9DLVQ8P;
+				INFOPLIST_FILE = "pet-tracker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.colbyholmstead-dev.pet-tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D1EC7C123E8CE0D00357E10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7MW9DLVQ8P;
+				INFOPLIST_FILE = "pet-tracker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.colbyholmstead-dev.pet-tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D1EC7A323E8CE0A00357E10 /* Build configuration list for PBXProject "pet-tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D1EC7BD23E8CE0D00357E10 /* Debug */,
+				3D1EC7BE23E8CE0D00357E10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D1EC7BF23E8CE0D00357E10 /* Build configuration list for PBXNativeTarget "pet-tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D1EC7C023E8CE0D00357E10 /* Debug */,
+				3D1EC7C123E8CE0D00357E10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3D1EC7B423E8CE0B00357E10 /* pet_tracker.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3D1EC7B523E8CE0B00357E10 /* pet_tracker.xcdatamodel */,
+			);
+			currentVersion = 3D1EC7B523E8CE0B00357E10 /* pet_tracker.xcdatamodel */;
+			path = pet_tracker.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3D1EC7A023E8CE0A00357E10 /* Project object */;
+}
